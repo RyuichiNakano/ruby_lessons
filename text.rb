@@ -18,3 +18,5 @@ end
 user = User.new　#Userクラスにinitialive newで新しい型を代入
 user.name = "taro" # userクラスの中のnameに "taro"を代入
 p user.name #p(puts?) user.name で　"taro" を出力
+
+#なぜかコミットされないなぞ。
