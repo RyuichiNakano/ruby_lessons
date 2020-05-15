@@ -3,6 +3,7 @@ def sum(a, b)
   result = 0
   (a..b).each do |number|
     result += number
+    
   end
   result
 end
@@ -13,3 +14,12 @@ sum2 = sum(1, 1000)
 sum3 = sum(1000, 9999)
 
 puts sum1 + sum2
+
+def methodA
+  puts "hello"
+end
+
+#メソッドの呼び出し
+(1..10).each do |num|
+  puts methodA
+end
